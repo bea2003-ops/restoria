@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://github.com/bea2003-ops/restoria",
+  "homepage": "https://bea2003-ops.github.io/restoria/",
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
