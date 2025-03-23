@@ -6,7 +6,7 @@ import react from "@vitejs/plugin-react-swc";
 import Unfonts from 'unplugin-fonts/vite'
 
 export default defineConfig({
-    base: '/restoria/',
+    base: '/',
     plugins: [react(), tailwindcss(),
         Unfonts({
             google: {

@@ -13,7 +13,7 @@ i18n
         ns: ['common'],
         defaultNS: 'common',
         backend: {
-            loadPath: 'src/locales/{{lng}}/{{ns}}.json',
+            loadPath: '/locales/{{lng}}/{{ns}}.json',
         },
         detection: {
             order: ['localStorage', 'navigator'],
