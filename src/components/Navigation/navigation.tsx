@@ -7,6 +7,7 @@ import {
     DropdownMenuTrigger
 } from "@/components/ui/dropdown-menu.tsx";
 import {ModeToggle} from "@/components/Theme/mode-toggle.tsx";
+import LanguageSwitcher from "@/components/Lang-changer/lang-changer.tsx";
 
 interface NavItem {
     title: string;
@@ -63,6 +64,7 @@ const Navigation = () => {
                 )
             )}
             <ModeToggle/>
+            <LanguageSwitcher/>
         </nav>
     );
 };
