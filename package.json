@@ -16,7 +16,7 @@
     "destination": "dist",
     "publicPath": "/repo-name/"
   },
-  "homepage": "https://www.restoriahungary.com",
+  "homepage": "https://www.restoriahungary.hu",
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.6",
     "@radix-ui/react-dropdown-menu": "^2.1.6",
