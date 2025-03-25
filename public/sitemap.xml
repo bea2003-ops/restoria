@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Home Page (Default, English) -->
+    <url>
+        <loc>https://restoriahungary.com/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://restoriahungary.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://restoriahungary.com/hu/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://restoriahungary.com/"/>
+    </url>
+
+    <!-- Home Page (English) -->
+    <url>
+        <loc>https://restoriahungary.com/en/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://restoriahungary.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://restoriahungary.com/hu/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="restoriahungary.com/"/>
+    </url>
+
+    <!-- Home Page (Hungarian) -->
+    <url>
+        <loc>https://restoriahungary.com/hu/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://restoriahungary.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://restoriahungary.com/hu/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://restoriahungary.com/"/>
+    </url>
+
+    <!-- Contact Page (Default, English) -->
+    <url>
+        <loc>https://restoriahungary.com/contact/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://restoriahungary.com/en/contact/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://restoriahungary.com/hu/contact/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://restoriahungary.com/contact/"/>
+    </url>
+
+    <!-- Contact Page (English) -->
+    <url>
+        <loc>https://restoriahungary.com/en/contact/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://restoriahungary.com/en/contact/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://restoriahungary.com/hu/contact/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://restoriahungary.com/contact/"/>
+    </url>
+
+    <!-- Contact Page (Hungarian) -->
+    <url>
+        <loc>https://restoriahungary.com/hu/contact/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://restoriahungary.com/en/contact/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://restoriahungary.com/hu/contact/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://restoriahungary.com/contact/"/>
+    </url>
+</urlset>

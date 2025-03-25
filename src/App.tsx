@@ -1,25 +1,22 @@
-import './App.css'
-import logo from './assets/restoria-logo.jpg';
-import {Helmet} from "react-helmet-async";
-import Navigation from "@/components/Navigation/navigation.tsx";
-import {useTranslation} from "react-i18next";
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import Home from "@/pages/home/home.tsx";
+import Contact from "@/pages/contact/contact.tsx";
 import i18n from "i18next";
 
 function App() {
     document.documentElement.lang = i18n.language;
 
-    const {t} = useTranslation();
     return (
-        <div>
-            <Navigation/>
-            <Helmet>
-                <title>Restoria - Home</title>
-            </Helmet>
-
-
-            <h1>{t('welcome')}</h1>
-            <img src={logo} alt="Logo"/>
-        </div>
+        <BrowserRouter basename="/">
+            <Routes>
+                <Route path="/" element={<Home/>}/>
+                <Route path="/en" element={<Home/>}/>
+                <Route path="/hu" element={<Home/>}/>
+                <Route path="/contact" element={<Contact/>}/>
+                <Route path="/en/contact" element={<Contact/>}/>
+                <Route path="/hu/contact" element={<Contact/>}/>
+            </Routes>
+        </BrowserRouter>
     )
 }
 
