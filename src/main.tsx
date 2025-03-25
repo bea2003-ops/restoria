@@ -1,5 +1,6 @@
 import {StrictMode} from 'react';
 import {createRoot, hydrateRoot} from 'react-dom/client';
+import {BrowserRouter} from 'react-router-dom';
 import './index.css';
 import App from './App.tsx';
 import {HelmetProvider} from 'react-helmet-async';
@@ -9,26 +10,21 @@ import './localization/i18n.ts';
 
 const rootElement = document.getElementById('root')!;
 
-if (rootElement.hasChildNodes()) {
-    hydrateRoot(
-        rootElement,
-        <StrictMode>
-            <HelmetProvider>
+const Root = (
+    <StrictMode>
+        <HelmetProvider>
+            <BrowserRouter basename="/">
                 <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
                     <App/>
                 </ThemeProvider>
-            </HelmetProvider>
-        </StrictMode>
-    );
+            </BrowserRouter>
+        </HelmetProvider>
+    </StrictMode>
+);
+
+if (rootElement.hasChildNodes()) {
+    hydrateRoot(rootElement, Root);
 } else {
     const root = createRoot(rootElement);
-    root.render(
-        <StrictMode>
-            <HelmetProvider>
-                <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
-                    <App/>
-                </ThemeProvider>
-            </HelmetProvider>
-        </StrictMode>
-    );
+    root.render(Root);
 }
