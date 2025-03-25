@@ -14,7 +14,12 @@
   "reactSnap": {
     "source": "dist",
     "destination": "dist",
-    "publicPath": "/repo-name/"
+    "publicPath": "/",
+    "include": [
+      "/",
+      "/en",
+      "/hu"
+    ]
   },
   "homepage": "https://www.restoriahungary.hu",
   "dependencies": {
